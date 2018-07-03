@@ -251,7 +251,7 @@ namespace clutils
         make_kernel_pair (const std::string &sourceCode)
     {
         // Create a pair of the source code and its size
-        return std::make_pair (sourceCode.c_str (), sourceCode.length () + 1);
+        return std::make_pair (sourceCode.c_str (), sourceCode.length ());
     }
 
 
